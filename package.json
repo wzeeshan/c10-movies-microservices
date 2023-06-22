@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx-nodemon-index.js"
   },
-  "repository":{
+  "repository": {
     "type": "git",
-    "url":"git@git.generalassemb.ly:wzeeshan/c10-movies-microservices.git"
+    "url": "git@git.generalassemb.ly:wzeeshan/c10-movies-microservices.git"
   },
   "author": "",
   "license": "ISC",
