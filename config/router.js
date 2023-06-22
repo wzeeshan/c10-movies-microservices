@@ -1,5 +1,5 @@
 import express from "express";
-import moviesController from "./controllers/moviesController.js";
+import moviesController from "../controllers/moviesController.js";
 
 const Router = express.Router();
 
@@ -20,7 +20,7 @@ Router.route("/movies")
     // res.send('request to get a specific movie id' + req.params.id);
    //});
 
-   Router.route('movies/:Id')
+   Router.route('/movies/:id')
    .get(moviesController.getAllMovies)
    .put(moviesController.updateMovie)
    .delete(moviesController.deleteMovie)
