@@ -21,9 +21,9 @@ Router.route("/movies")
    //});
 
    Router.route('/movies/:id')
-   .get(moviesController.getAllMovies)
-   .put(moviesController.updateMovie)
-   .delete(moviesController.deleteMovie)
+    .get(moviesController.getAllMovies)
+    .put(moviesController.updateMovie)
+    .delete(moviesController.deleteMovie)
 
 
   export default Router;
